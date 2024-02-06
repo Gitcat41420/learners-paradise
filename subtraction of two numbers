@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int num1,num2,subr;
+		setbuf(stdout,NULL);
+		printf("enter two numbers");
+		scanf("%d%d",&num1,&num2);
+		subr=num1-num2;
+		printf("the result is : %d",subr);
+	return EXIT_SUCCESS;
